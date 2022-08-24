@@ -4,7 +4,9 @@
   "description": "In this repository you will find files about this powerful execution environment called Node.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "serve": "gulp serve"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,9 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2",
+    "puppeteer": "^16.2.0",
     "bcrypt": "^5.0.1",
     "is-odd": "^3.0.1",
     "moment": "^2.29.4",
