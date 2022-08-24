@@ -1,3 +1,4 @@
+#!MONOTHREAD
 console.log('First...');
 
 let i = 0;
