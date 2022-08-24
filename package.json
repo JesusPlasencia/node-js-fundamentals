@@ -19,5 +19,11 @@
   "homepage": "https://github.com/JesusPlasencia/node-js-fundamentals#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "is-odd": "^3.0.1",
+    "moment": "^2.29.4",
+    "sharp": "^0.30.7"
   }
 }
